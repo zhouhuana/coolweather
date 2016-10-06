@@ -1,4 +1,4 @@
-package model;
+package com.example.coolweather;
 
 public class Country {
 	private int id;
@@ -21,7 +21,7 @@ public class Country {
 		return countryName;
 		
 	}
-	public void setcountryName(String countryNames){
+	public void setcountryName(String countryName){
 		this.countryName=countryName;
 	}
 	public String getcountryCode(){

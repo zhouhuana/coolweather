@@ -1,4 +1,4 @@
-package model;
+package com.example.coolweather;
 
 public class City {
 	private int id;
@@ -17,17 +17,17 @@ public class City {
 	public void setId(int id){
 		this.id=id;
 	}
-	public String getcityName(){
+	public String getCityName(){
 		return cityName;
 		
 	}
-	public void setcityName(String cityNames){
+	public void setCityName(String cityNames){
 		this.cityName=cityName;
 	}
-	public String getcityCode(){
+	public String getCityCode(){
 		return cityCode;
 	}
-	public void setcityCode(String cityCode){
+	public void setCityCode(String cityCode){
 		this.cityCode=cityCode;
 	}
 }
